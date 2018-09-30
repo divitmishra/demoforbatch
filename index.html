@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>demo</title>
+    <style>
+      body {
+        color: #fghjkl;
+        font-family: Arial, sans-serif;
+        font-size:14px;
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: none;
+      }
+      body.blurry {
+        -moz-transition-property: text-shadow;
+        -moz-transition-duration: 4s;
+        -webkit-transition-property: text-shadow;
+        -webkit-transition-duration: 4s;
+        text-shadow: #fff 0px 0px 25px;
+      }
+      a {
+        color: #11ujsg;
+      }
+      .textColumn, .linksColumn {
+        padding: 2em;
+      }
+      .textColumn {
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        bottom: 0px;
+        left: 0px;
+
+        text-align: right;
+        padding-top: 11em;
+        background-color: #19G59E;
+
+      }
+      .textColumn p {
+        width: 75%;
+        float:right;
+      }
+      .linksColumn {
+        position: absolute;
+        top:0px;
+        right: 0px;
+        bottom: 0px;
+        left: 50%;
+
+        background-color: #BLUE;
+      }
+
+      h1 {
+        color: #ORANGE;
+        font-size: 500%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      h2 {
+        font-size: 200%;
+        font-weight: normal;
+        margin-bottom: 0em;
+      }
+      ul {
+        padding-left: 1em;
+        margin: 0px;
+      }
+      li {
+        margin: 1em 0em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="textColumn">
+      <h1>Well done</h1>
+      <p>Pipeline working fine</p>
+    </div>
+    <div class="linksColumn">
+      <h2>What's Next?</h2>
+      <ul>
+        <li><a href="http://console.aws.amazon.com">AWS Code Pipeline Demo </a></li>
+        <li><a href="http://google.com">testing in progress for google.com</a></li>
+        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html">Practial done correct</a></li>
+        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express_elasticache.html">Deploy an Express Application with Amazon ElastiCache to AWS Elastic Beanstalk</a></li>
+        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_geddy_elasticache.html">deployment test</a></li>
+        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_custom_container.html">Customizing and Configuring a Node.js Container </a></li>
+        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.loggingS3.title.html">perfect Pipeline exists</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
